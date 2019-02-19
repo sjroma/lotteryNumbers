@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(0,0,0,0.2);
+  font-family: Rubik, sans-serif;
+  text-align: center;
+}
+
+#container {
+  background-color: #F9F9F9;
+  border-radius: 4px;
+  margin: 0 auto;
+  max-width: 85%;
+  padding: 20px;
+}
+
+h1 {
+  padding: 20px;
+}
+
+.logo {
+  padding: 20px;
+  text-align: center;
+}
+
+#genMega, #genPower {
+  color: #f47742;
+  font-weight: bold;
+  padding-bottom: 4px;
+  text-align: center;
+}
+
+#genMega:hover, #genPower:hover {
+  cursor: pointer;
+}
+
+.megamillions, .powerball {
+  text-align: center;
+}
+
+.ball, .mmball, .pbball {
+  background-color: rgba(0,0,0,0.1);
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 600;
+  height: 50px;
+  line-height: 50px;
+  width: 50px;
+}
+
+.mmball {
+  background-color: #ffd700;
+}
+
+.pbball {
+  background-color: #f00;
+}
+
+p {
+  font-size: smaller;
+  padding-bottom: 10px;
+  padding-top: 4px;
+  text-align: center;
+}
+
+.separator {
+  text-align: center;
+}
+
+.author {
+  font-size: small;
+}
