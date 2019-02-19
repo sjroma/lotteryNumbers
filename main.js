@@ -63,7 +63,7 @@ function main() {
 function getPwrWhite() {
   const PWArray = [];
   while (PWArray.length < 5) {
-    var random = Math.floor(Math.random() * 70 + 1);
+    var random = Math.floor(Math.random() * 69 + 1);
     if (PWArray.indexOf(random) === -1) PWArray.push(random);
   }
   console.log("Power white balls array...", PWArray);
@@ -76,7 +76,7 @@ function getPwrWhite() {
 //getPwrWhite();
 
 function getPwrGold() {
-  const pwrGoldBall = (Math.floor(Math.random() * 25 + 1));
+  const pwrGoldBall = (Math.floor(Math.random() * 26 + 1));
   pball_div.innerHTML = pwrGoldBall;
   console.log("Power red ball...", pwrGoldBall);
 }
