@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: rgba(0,0,0,0.2);
+  background-color: #9cbef4;
   font-family: Rubik, sans-serif;
   text-align: center;
 }
@@ -45,7 +45,7 @@ h1 {
 }
 
 .ball, .mmball, .pbball {
-  background-color: rgba(0,0,0,0.1);
+  background-color: rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   display: inline-block;
   font-size: 20px;
@@ -85,7 +85,7 @@ p {
     line-height: 25px;
     width: 25px;
   }
-  
+
   p {
     font-size: 12px;
   }
