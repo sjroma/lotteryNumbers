@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(0,0,0,0.2);
+  font-family: Rubik, sans-serif;
+  text-align: center;
+}
+
+#container {
+  background-color: #F9F9F9;
+  border-radius: 4px;
+  margin: 0 auto;
+  max-width: 85%;
+  padding: 20px;
+}
+
+h1, h2 {
+  padding: 20px;
+}
+
+table {
+  padding-bottom: 25px;
+}
+
+.prize-table {
+  border-spacing: 0 10px;
+}
+
+th {
+  background-color: rgba(0,0,0,0.1);
+  font-size: 20px;
+}
+
+.pball, .pmball, .ppball {
+  background-color: #fff;
+  border-radius: 50%;
+  box-shadow: inset 0.5px 0.5px 0.5px 0.25px rgba(0, 0, 0, 1);
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 600;
+  height: 25px;
+  line-height: 50px;
+  width: 25px;
+}
+
+.plus {
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 25px;
+  font-weight: 600;
+  height: 25px;
+  line-height: 50px;
+  width: 25px;
+}
+
+.plus-filler {
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 25px;
+  font-weight: 600;
+  height: 25px;
+  line-height: 50px;
+  width: 25px;
+}
+
+.pball-filler {
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 600;
+  height: 25px;
+  line-height: 50px;
+  width: 25px;
+}
+
+.pmball {
+  background-color: #ffd700;
+}
+
+.ppball {
+  background-color: #f00;
+}
+
+.separator {
+  text-align: center;
+}
+
+.kudo {
+  font-size: small;
+}
+
+@media all and (max-width:576px) {
+  .pball, .pmball, .ppball {
+    height: 10px;
+    width: 10px;
+  }
+  
+  .plus {
+    font-size: 10px;
+    height: 10px;
+    width: 10px;
+  }
+  
+  .plus-filler {
+    font-size: 10px;
+    height: 10px;
+    width: 10px;
+  }
+  
+  .pball-filler {
+    height: 10px;
+    width: 10px;
+  }
+}
