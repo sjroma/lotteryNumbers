@@ -48,8 +48,8 @@ h1 {
   background-color: rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   display: inline-block;
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 25px;
+  font-weight: 700;
   height: 50px;
   line-height: 50px;
   width: 50px;
@@ -65,7 +65,7 @@ h1 {
 
 p {
   font-size: smaller;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
   padding-top: 4px;
   text-align: center;
 }
@@ -74,7 +74,7 @@ p {
   text-align: center;
 }
 
-.author {
+.disclaimer {
   font-size: small;
 }
 
