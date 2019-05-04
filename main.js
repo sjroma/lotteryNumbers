@@ -20,7 +20,7 @@ const pball_div = document.getElementById("pball");
 function getMegaWhite() {
   const MWArray = [];
   while (MWArray.length < 5) {
-    var random = Math.floor(Math.random() * 70 + 1);
+    let random = Math.floor(Math.random() * 70) + 1;
     if (MWArray.indexOf(random) === -1) MWArray.push(random);
   }
 //  console.log("Mega white balls array...", MWArray);
@@ -33,7 +33,7 @@ function getMegaWhite() {
 //getMegaWhite();
 
 function getMegaGold() {
-  const megaGoldBall = (Math.floor(Math.random() * 25 + 1));
+  const megaGoldBall = Math.floor(Math.random() * 25) + 1;
   mball_div.innerHTML = megaGoldBall;
 //  console.log("Mega gold ball...", megaGoldBall);
 }
@@ -44,7 +44,7 @@ function getMegaGold() {
 function getPwrWhite() {
   const PWArray = [];
   while (PWArray.length < 5) {
-    var random = Math.floor(Math.random() * 69 + 1);
+    var random = Math.floor(Math.random() * 69) + 1;
     if (PWArray.indexOf(random) === -1) PWArray.push(random);
   }
 //  console.log("Power white balls array...", PWArray);
@@ -57,7 +57,7 @@ function getPwrWhite() {
 //getPwrWhite();
 
 function getPwrGold() {
-  const pwrGoldBall = (Math.floor(Math.random() * 26 + 1));
+  const pwrGoldBall = Math.floor(Math.random() * 26) + 1;
   pball_div.innerHTML = pwrGoldBall;
 //  console.log("Power red ball...", pwrGoldBall);
 }
