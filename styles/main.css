@@ -7,20 +7,22 @@
 }
 
 body {
-  background-color: #9cbef4;
+  background-color: #f9f9f9;
   font-family: Rubik, sans-serif;
   text-align: center;
 }
 
 #container {
-  background-color: #F9F9F9;
+  background-color: #bbb;
   border-radius: 4px;
+  color: #fff;
   margin: 0 auto;
   max-width: 85%;
   padding: 20px;
 }
 
 h1 {
+  color: #333;
   padding: 20px;
 }
 
@@ -30,7 +32,7 @@ h1 {
 }
 
 #genMega, #genPower {
-  color: #f47742;
+  color: #f40042;
   font-weight: bold;
   padding-bottom: 4px;
   text-align: center;
@@ -45,8 +47,9 @@ h1 {
 }
 
 .ball, .mmball, .pbball {
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: #fff;
   border-radius: 50%;
+  color: #333;
   display: inline-block;
   font-size: 25px;
   font-weight: 700;
@@ -55,12 +58,15 @@ h1 {
   width: 50px;
 }
 
+/*change megaball to yellow while retaining shadowing and position from ruleset above*/
 .mmball {
-  background-color: #ffd700;
+  background-color: #ffff00;
 }
 
+/*ditto for powerball color (red)*/
 .pbball {
   background-color: #f00;
+  color: #fff;
 }
 
 p {
