@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Rubik');
-
 * {
   margin: 0;
   padding: 0;
@@ -32,18 +30,13 @@ h1 {
 }
 
 #genMega, #genPower {
-  color: #f40042;
-  font-weight: bold;
+  color: #6719e6;
+  font-weight: 500;
   padding-bottom: 4px;
-  text-align: center;
 }
 
 #genMega:hover, #genPower:hover {
   cursor: pointer;
-}
-
-.megamillions, .powerball {
-  text-align: center;
 }
 
 .ball, .mmball, .pbball {
@@ -52,7 +45,7 @@ h1 {
   color: #333;
   display: inline-block;
   font-size: 25px;
-  font-weight: 700;
+  font-weight: 500;
   height: 50px;
   line-height: 50px;
   width: 50px;
@@ -60,7 +53,7 @@ h1 {
 
 /*change megaball to yellow while retaining shadowing and position from ruleset above*/
 .mmball {
-  background-color: #ffff00;
+  background-color: #ff0;
 }
 
 /*ditto for powerball color (red)*/
@@ -70,21 +63,17 @@ h1 {
 }
 
 p {
+  color: #333;
   font-size: smaller;
   padding-bottom: 5px;
   padding-top: 4px;
-  text-align: center;
 }
 
 .separator {
   text-align: center;
 }
 
-.disclaimer {
-  font-size: small;
-}
-
-.author {
+.disclaimer, .author {
   font-size: small;
 }
 
