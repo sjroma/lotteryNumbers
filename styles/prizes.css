@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Rubik');
-
 * {
   margin: 0;
   padding: 0;
@@ -21,7 +19,7 @@ body {
   padding: 20px;
 }
 
-h1 {
+h1, h2 {
   color: #333;
 }
 
@@ -38,7 +36,12 @@ table {
 }
 
 th {
+  color: #333;
   font-size: 20px;
+}
+
+.prize, .odds, .plus {
+  color: #333;
 }
 
 .pball, .pmball, .ppball {
@@ -96,6 +99,7 @@ th {
 }
 
 .kudo {
+  color: #333;
   font-size: small;
 }
 
