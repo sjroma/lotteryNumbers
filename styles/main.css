@@ -29,6 +29,11 @@ h1 {
   text-align: center;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 #genMega, #genPower {
   color: #6719e6;
   font-weight: 500;
