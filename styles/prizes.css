@@ -27,12 +27,9 @@ h1, h2 {
   padding: 20px;
 }
 
-table {
-  padding-bottom: 25px;
-}
-
 .prize-table {
   border-spacing: 0 10px;
+  padding-bottom: 25px;
 }
 
 th {
@@ -94,6 +91,11 @@ th {
   background-color: #f00;
 }
 
+p {
+  padding: 0 5em 0.5em;
+  text-align: left;
+}
+
 .separator {
   text-align: center;
 }
@@ -104,7 +106,12 @@ th {
 }
 
 a {
+  color: #00f;
   text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 @media all and (max-width:576px) {
