@@ -1,6 +1,6 @@
 # Generate random numbers for the _Mega Millions_ and _Powerball_ lotteries  
 
-## Click to [generate your lottery numbers](https://sjroma.github.io/lotterynumbers)  
+## Click to <a href="https://sjroma.github.io/lotterynumbers" target="_blank">generate your lottery numbers</a>  
 
 A front-end JavaScript exercise to generate random numbers for the U.S. based
 lottery games, [_Mega Millions_](https://www.megamillions.com) and [_Powerball_](https://www.megamillions.com).  
